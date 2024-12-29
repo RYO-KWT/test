@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="robots" content="noindex">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div class="l-bg__parallax">
+    <video class="l-bg__parallax-video" autoplay muted loop playsinline>
+      <source src="video/bg_movie.mp4" type="video/mp4">
+    </video>
+  </div>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo">
+        <a href="index.html" class="header__logo-link">
+          <img src="images/logo_header.svg" alt="Necopon games">
+        </a>
+      </h1>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#story" class="nav__link">story</a>
+          </li>
+          <li class="nav__item">
+            <a href="#trailer" class="nav__link">trailer</a>
+          </li>
+          <li class="nav__item nav__button">
+            <a href="#" class="c-button c-button--small">play now</a>
+          </li>
+        </ul>
+        <button type="button" class="audio__button js-audio__button">
+          <span class="audio__text js-audio__text">sound off</span>
+          <span class="audio__icon">
+            <svg width="15" height="16" viewBox="0 0 15 16">
+              <path
+                d="M0 5.92674L0 9.59596C0 10.1005 0.375 10.5133 0.833333 10.5133L3.33333 10.5133L6.075 13.5312C6.6 14.1091 7.5 13.6963 7.5 12.8799L7.5 2.63361C7.5 1.8172 6.6 1.40442 6.075 1.98232L3.33333 5.00943L0.833333 5.00943C0.375 5.00943 0 5.42222 0 5.92674ZM11.25 7.76135C11.25 6.13772 10.4 4.74341 9.16667 4.0646L9.16667 11.4489C10.4 10.7793 11.25 9.38498 11.25 7.76135ZM9.16667 0.835687V1.01915C9.16667 1.36772 9.375 1.67044 9.66667 1.79886C11.8167 2.74368 13.3333 5.06447 13.3333 7.76135C13.3333 10.4582 11.8167 12.779 9.66667 13.7238C9.36667 13.8523 9.16667 14.155 9.16667 14.5035V14.687C9.16667 15.2649 9.69167 15.6685 10.175 15.4667C13 14.2834 15 11.2838 15 7.76135C15 4.23889 13 1.2393 10.175 0.0559763C9.69167 -0.155004 9.16667 0.257784 9.16667 0.835687V0.835687Z" />
+            </svg>
+          </span>
+        </button>
+        <audio class="audio js-audio" loop>
+          <source src="audio/cinematic-melody-main-9785.mp3" type="audio/mp3">
+        </audio>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="mv">
+      <div class="l-container">
+        <div class="mv__inner">
+          <div class="mv__desc">
+            <p class="mv__label">vr game</p>
+            <h2 class="mv__title">Planet<br>Hunters</h2>
+            <h3 class="mv__sub-title">惑星を奪還せよ</h3>
+            <div class="mv__button">
+              <a href="#" class="c-button">play now</a>
+            </div>
+          </div>
+          <div class="mv__scroll">
+            <div class="anim-scroll">
+              <span class="anim-scroll__text">Scroll</span>
+            </div>
+          </div>
+          <div class="mv__news-ticker">
+            <div class="anim-news-ticker">
+              <ul class="anim-news-ticker__list">
+                <li class="anim-news-ticker__item">
+                  <time class="anim-news-ticker__date" datetime="2030-05-30">2030.05.30</time><!--
+                  --><span class="anim-news-ticker__text">バージョン5.6リリース : アバター・アイテム大量発生！</span>
+                </li>
+                <li class="anim-news-ticker__item">
+                  <time class="anim-news-ticker__date" datetime="2030-04-16">2030.04.16</time><!--
+                  --><span class="anim-news-ticker__text">期間限定アイテム放出！</span>
+                </li>
+                <li class="anim-news-ticker__item">
+                  <time class="anim-news-ticker__date" datetime="2030-03-05">2030.03.05</time><!--
+                  --><span class="anim-news-ticker__text">バグを修正しました。</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <div class="l-bg__line l-bg__line-top">
+        <svg width="430" height="40" viewBox="0 0 430 40">
+          <path d="M430 40L0 40L47.8771 4.74073e-06L430 3.43323e-05L430 40Z" />
+        </svg>
+      </div>
+      <section id="story" class="story">
+        <div class="l-container">
+          <div class="story__inner">
+            <ul class="story__list">
+              <li class="story__item">
+                <div class="story__desc">
+                  <h2 class="c-heading-lv2">story</h2>
+                  <h3 class="story__title">奪われた故郷の星を取り戻せ<br>壮大なSFファンタジー</h3>
+                  <p class="story__text">
+                    銀河歴222年、惑星ネコチャンは、ボスネコ将軍の率いる軍の反乱により完全に制圧された。将軍の側近マンチカンは軍政府に従わない人間を辺境の星ニャゴーへ強制的に追放。食料や資源の乏しいニャゴーでは多くの難民が発生し飢餓に苦しんでいた。ニャゴーのスラム街で育った孤児の姉弟がいた。姉のミケと弟のタマは母親をボスネコ将軍に殺された事実を知る。母の復讐のため、そして故郷の惑星ネコチャンを奪還すべく、ミケとタマはいま行動に出る！
+                  </p>
+                </div>
+                <figure class="story__image">
+                  <img src="images/story_image@2x.jpg" alt="" width="430" height="500" loading="lazy">
+                </figure>
+              </li>
+
+              <li class="story__item">
+                <div class="story__desc">
+                  <h3 class="story__title">隠された陰謀を暴け<br>衝撃的な事実に驚愕</h3>
+                  <p class="story__text">
+                    ミケとタマはネコジャラシ作戦により軍政府の最新鋭の小型船チュールを奪うことに成功。チュールのハイテンションワープ星間航行により惑星ネコチャンへあとわずか３時間で到着という時、小惑星帯アビシニアンで謎の救難信号を受信する。意外にも信号の発信源はボスネコ将軍だった。彼は今にも絶えそうなかすれた声で「私はおまえたちミケとタマの父親なのだ」と語る。その瞬間、ミケとタマの育ての親同然で仲間のはずのホワイトオッドアイがタマの背中を刀で切り裂いたのだった......
+                  </p>
+                </div>
+                <figure class="story__image">
+                  <img src="images/story_image02@2x.jpg" alt="" width="430" height="500" loading="lazy">
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="l-bg__line l-bg__line-bottom">
+        <svg width="430" height="40" viewBox="0 0 430 40">
+          <path d="M0 0L430 0L382.123 40L0 40L0 0Z" />
+        </svg>
+      </div>
+
+      <section class="cta">
+        <div class="l-container">
+          <div class="cta__inner">
+            <h2 class="cta__title">are you ready to fight?</h2>
+            <div class="cta__button">
+              <a href="#" class="c-button">play now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="l-bg__line l-bg__line--accent l-bg__line-top">
+        <svg width="430" height="40" viewBox="0 0 430 40">
+          <path d="M430 40L0 40L47.8771 4.74073e-06L430 3.43323e-05L430 40Z" />
+        </svg>
+      </div>
+      <section id="trailer" class="trailer">
+        <div class="l-container">
+          <h2 class="c-heading-lv2 c-heading-lv2--accent">trailer</h2>
+          <div class="trailer__inner">
+            <div class="trailer__video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/UBSGpEpWE_I?si=Kg5053hDZOmtII1L"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="l-bg__line l-bg__line--accent l-bg__line-bottom">
+        <svg width="430" height="40" viewBox="0 0 430 40">
+          <path d="M0 0L430 0L382.123 40L0 40L0 0Z" />
+        </svg>
+      </div>
+
+      <section class="cta">
+        <div class="l-container">
+          <div class="cta__inner">
+            <h2 class="cta__title">are you ready to fight?</h2>
+            <div class="cta__button">
+              <a href="#" class="c-button">play now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <div class="l-bg__line l-bg__line-top">
+    <svg width="430" height="40" viewBox="0 0 430 40">
+      <path d="M430 40L0 40L47.8771 4.74073e-06L430 3.43323e-05L430 40Z" />
+    </svg>
+  </div>
+  <footer class="footer">
+    <div class="l-container">
+      <div class="footer__inner">
+        <small class="footer__copylight">&copy;Necopon games</small>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
